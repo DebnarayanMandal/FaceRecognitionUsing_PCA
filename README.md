@@ -24,23 +24,29 @@ PCA in all trials.
 
 ## Objective
 The objective of using PCA (Principal Component Analysis) in a face recognition system is to reduce the dimensionality of the face images while preserving the most important information necessary for accurate recognition. Here's how PCA is typically applied in a face recognition system:
+
 ![Annotation 2024-05-11 172249](https://github.com/DebnarayanMandal/FaceRecognitionUsing_PCA/assets/114856316/9f7b0be4-98a6-438c-a1c0-f45818dbe44f)
 
 
 Dimensionality Reduction: Face images are typically high-dimensional, especially if they are in color or high-resolution. PCA is used to reduce the dimensionality of these images by finding a set of orthogonal axes (principal components) that capture the maximum variance in the data.
+
 ![Annotation 2024-05-11 171638](https://github.com/DebnarayanMandal/FaceRecognitionUsing_PCA/assets/114856316/ae24a375-7dd2-4645-9ee4-31a57469db93)
 
 Feature Extraction: Each face image is treated as a point in a high-dimensional space. PCA transforms these points into a lower-dimensional space, where each image is represented by a vector of reduced dimensionality. These vectors are the principal components that capture the essential features of the face images.
+
 ![Annotation 2024-05-11 172157](https://github.com/DebnarayanMandal/FaceRecognitionUsing_PCA/assets/114856316/b79191c5-e75c-4106-acc1-2a0265971095)
 
 
 Eigenfaces: The principal components obtained from PCA are often referred to as eigenfaces. These eigenfaces represent the directions of maximum variance in the face image dataset. They can be thought of as "generic face patterns" that capture the main variations in facial appearance across the dataset.
+
 ![Annotation 2024-05-11 171656](https://github.com/DebnarayanMandal/FaceRecognitionUsing_PCA/assets/114856316/14719128-559e-4e74-a4ca-a89669c4ba9f)
 
 Recognition: During the recognition phase, a new face image is projected onto the lower-dimensional subspace spanned by the eigenfaces. This projection results in a low-dimensional representation of the new face image. By comparing this representation with those of known faces (stored in a database), the system can identify or verify the identity of the person in the new image.
+
 ![Annotation 2024-05-11 180215](https://github.com/DebnarayanMandal/FaceRecognitionUsing_PCA/assets/114856316/d03f466f-3604-4dfc-96bf-6742847a19d7)
 
 Classification: The reduced-dimensional representations of face images can be used as input to classification algorithms (such as k-nearest neighbors or support vector machines) and characteristics.
+
 ![Annotation 2024-05-11 171725](https://github.com/DebnarayanMandal/FaceRecognitionUsing_PCA/assets/114856316/aa4eb2fd-c5cf-4bd3-a92f-8bd90489aee2)
 
 Overall, the objective of using PCA in a face recognition system is to improve computational efficiency, reduce storage requirements, and enhance recognition accuracy by extracting and representing the essential features of face images in a lower-dimensional space.
@@ -58,10 +64,12 @@ face images. That’s why we need to collect human face images in vary angle and
 also lighting, darkness, inside home and outside home images as well. We take
 a ORL dataset that have same kind of images, next I using PCA and 2D PCA on
 ORL dataset to find out how to accurately work in face recognition technique.
+
 ![Annotation 2024-05-11 171611](https://github.com/DebnarayanMandal/FaceRecognitionUsing_PCA/assets/114856316/9dfbe0c6-2682-4979-8ea5-d8a9ac63706e)
 
 ## Result
 There I discuss what kind of result and accuracy I get.
+
 ![Annotation 2024-05-11 172344](https://github.com/DebnarayanMandal/FaceRecognitionUsing_PCA/assets/114856316/e6364d9d-b596-46f2-9d61-fa18d6bada0e)
 
 ## CONCLUSION
